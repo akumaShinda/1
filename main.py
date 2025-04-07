@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from routers import auth, users, trades
+import auth, users, trades
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(title="QuantumTrade API")
